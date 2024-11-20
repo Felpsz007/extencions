@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #141414;
+    color: #ffffff;
+}
+
+.container {
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    color: #e50914;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+#stats {
+    margin-bottom: 20px;
+}
+
+.progress-bar {
+    background-color: #333;
+    border-radius: 10px;
+    height: 20px;
+    overflow: hidden;
+    margin: 10px 0;
+}
+
+.progress {
+    background-color: #e50914;
+    height: 100%;
+    width: 0;
+    transition: width 0.3s;
+}
+
+#trainingSuggestions {
+    background-color: #222;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: left;
+}
+
+.suggestion {
+    background-color: #333;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.suggestion:hover {
+    background-color: #444;
+}
